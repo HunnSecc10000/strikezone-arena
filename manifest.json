@@ -1,25 +1,298 @@
 {
- "schema": 1,
- "version": "2026.11.18.0100",
- "base_url": "",
- "assets": [
-  {"id":"gun_m4a1","type":"gun","category":"assault_rifle","name":"M4A1","path":"guns/assault_rifle/m4a1.glb","version":1,"sha256":"0b5b5b24de2f6237b88546ab5b925d82600486a587f5d13c8f83f2edfef48bcb","size":1842544,"required":false,"meta":{"yaw_deg":-90,"roll_deg":0,"length":0.92,"muzzle_y":0.62}},
-  {"id":"gun_ak47","type":"gun","category":"assault_rifle","name":"AK-47","path":"guns/assault_rifle/ak-47.glb","version":1,"sha256":"561edaaaf64337773cfb6eb472f782e3d7b8ba57a9f89d110f695c30b447e78f","size":1613520,"required":false,"meta":{"yaw_deg":90,"roll_deg":0,"length":0.95,"muzzle_y":0.62}},
-  {"id":"gun_mp5","type":"gun","category":"smg","name":"MP5","path":"guns/smg/mp5.glb","version":1,"sha256":"acad822a4c55ea8fefda0002ed3d8f61a2e6cfc2d857d63408980e4d9807622d","size":1658012,"required":false,"meta":{"yaw_deg":-90,"roll_deg":0,"length":0.7,"muzzle_y":0.62}},
-  {"id":"gun_ump45","type":"gun","category":"smg","name":"UMP-45","path":"guns/smg/ump-45.glb","version":1,"sha256":"006832cdfeae79779f79f3a53bff140cee328b49094262f176162a1ea28a5149","size":1613528,"required":false,"meta":{"yaw_deg":90,"roll_deg":0,"length":0.72,"muzzle_y":0.7}},
-  {"id":"gun_awp","type":"gun","category":"gun","name":"AWP","path":"guns/sniper/awp.glb","version":1,"sha256":"08233e575baba7da31a739c2bc1480e7b3052d79a58f68d0339cc24250578281","size":1161240,"required":false,"meta":{"yaw_deg":0,"roll_deg":0,"length":1.25,"muzzle_y":0.5}},
-  {"id":"gun_m82","type":"gun","category":"sniper","name":"M82 Barrett","path":"guns/sniper/m82-barrett.glb","version":1,"sha256":"6ec2a7343da321bdca43ec7c616d89f7df11fd58a3cda3223edc13c48ab4eeb2","size":309116,"required":false,"meta":{"yaw_deg":-90,"roll_deg":0,"length":1.3,"muzzle_y":0.55}},
-  {"id":"gun_usps","type":"gun","category":"pistol","name":"USP-S","path":"guns/pistol/usp-s.glb","version":1,"sha256":"3e65759d2ee245bc30c7354f8d690b3b5c1007952b43761c752e9092a19d0b48","size":813336,"required":false,"meta":{"yaw_deg":-90,"roll_deg":0,"length":0.36,"muzzle_y":0.75}},
-  {"id":"gun_deagle","type":"gun","category":"pistol","name":"Desert Eagle","path":"guns/pistol/desert-eagle.glb","version":1,"sha256":"b585a13ca6f9c4f90b3d30abb5b045e8ba2eb78a300d54faa27218e17c0c7187","size":15083744,"required":false,"meta":{"yaw_deg":180,"roll_deg":0,"length":0.34,"muzzle_y":0.8}},
-  {"id":"gun_fragknife","type":"gun","category":"melee","name":"Frag Knife","path":"guns/melee/frag-knife.glb","version":1,"sha256":"b4fa90829e94a070036ef3254061d094d2071680bee95ccb4b84d7f982e3d970","size":920348,"required":false,"meta":{"yaw_deg":-45,"roll_deg":90,"length":0.34,"muzzle_y":0.5}},
-  {"id":"gun_utilityknife","type":"gun","category":"melee","name":"Utility Knife","path":"guns/melee/utility-knife.glb","version":1,"sha256":"336ab78e4fbc6aa1a7e940a0b03d5783b66812405f7966ef291d74b6921efc96","size":471000,"required":false,"meta":{"yaw_deg":-90,"roll_deg":0,"length":0.3,"muzzle_y":0.5}},
-  {"id":"char_frost","type":"character","name":"Frost","path":"characters/frost.glb","version":1,"sha256":"e93cb162b93b7cf5b114d0a3d232130664f35e3b8d7a13a4c013f0a9515f5755","size":1282876,"required":true,"meta":{"yaw_deg":180,"height":1.82,"title":"The Ice-Cold Closer","personality":"Calm, composed and never rattled. Frost reads the fight and finishes it quietly.","perk":"Steady aim"}},
-  {"id":"char_noir","type":"character","name":"Noir","path":"characters/noir.glb","version":1,"sha256":"b6fb3b95645e39e25e0c95894260e8c87595041829b5301e6067fd66c72dffbd","size":3876660,"required":false,"meta":{"yaw_deg":180,"height":1.82,"title":"Shadow in the Coat","personality":"A mysterious loner who speaks little and appears behind you.","perk":"Silent steps"}},
-  {"id":"char_rivet","type":"character","name":"Rivet","path":"characters/rivet.glb","version":1,"sha256":"52017eca8872088ce8cb0e3e5139ebcaafe1b90480ad835b8ceac19d13bcee19","size":1004680,"required":false,"meta":{"yaw_deg":180,"height":1.8,"title":"Blue-Collar Bruiser","personality":"Stubborn, hard-working and tough as steel. Rivet takes a hit and keeps building.","perk":"Heavy hitter"}},
-  {"id":"char_ace","type":"character","name":"Ace","path":"characters/ace.glb","version":1,"sha256":"72fc3e1b591d5d92ef57db9db131187aacbfc1676704330e4702f13b2616988c","size":1051548,"required":false,"meta":{"yaw_deg":180,"height":1.82,"title":"The Natural Leader","personality":"Confident, upbeat and always first through the door.","perk":"Team spirit"}},
-  {"id":"char_billa","type":"character","name":"Billa","path":"characters/billa.glb","version":1,"sha256":"685a050225608930edfa50e5683ae371d86e1ff6fa3b63da06b0c881e1071a95","size":2866152,"required":false,"meta":{"yaw_deg":180,"height":1.8,"title":"The Boss","personality":"Smooth, stylish and a little dangerous. Billa runs the room.","perk":"Style points"}},
-  {"id":"map_lobby","type":"map","name":"Dome Lobby","path":"maps/lobby.glb","version":1,"sha256":"102ce2389533bfceef97ed307a653231ad28b871d8d091b3f85d1d9eb3b36ea6","size":2902460,"required":true,"meta":{"scale":0.8,"usable_radius":15.5}},
-  {"id":"tex_camo_woodland","type":"texture","name":"Woodland Camo","path":"textures/camo_woodland.png","version":1,"sha256":"d98beace9bdf7f0b130a764a27ddd3c2a9dc093512728468514b9f50507c9b67","size":6389,"required":false,"meta":{}},
-  {"id":"tex_camo_tiger","type":"texture","name":"Tiger Camo","path":"textures/camo_tiger.png","version":1,"sha256":"c672361de06023b1a5188f242e424a6330d834f5b4ea15ac8c93ad2130c0c380","size":3321,"required":false,"meta":{}}
- ]
+  "schema": 1,
+  "version": "2026.11.18.0100",
+  "base_url": "https://HunnSecc10000.github.io/strikezone-arena/",
+  "assets": [
+    {
+      "id": "gun_m4a1",
+      "type": "gun",
+      "category": "assault_rifle",
+      "name": "M4A1",
+      "path": "guns/assault_rifle/m4a1.glb",
+      "version": 1,
+      "sha256": "0b5b5b24de2f6237b88546ab5b925d82600486a587f5d13c8f83f2edfef48bcb",
+      "size": 1842544,
+      "required": false,
+      "meta": {
+        "yaw_deg": -90,
+        "roll_deg": 0,
+        "length": 0.92,
+        "muzzle_y": 0.62
+      }
+    },
+    {
+      "id": "gun_ak47",
+      "type": "gun",
+      "category": "assault_rifle",
+      "name": "AK-47",
+      "path": "guns/assault_rifle/ak-47.glb",
+      "version": 1,
+      "sha256": "561edaaaf64337773cfb6eb472f782e3d7b8ba57a9f89d110f695c30b447e78f",
+      "size": 1613520,
+      "required": false,
+      "meta": {
+        "yaw_deg": 90,
+        "roll_deg": 0,
+        "length": 0.95,
+        "muzzle_y": 0.62
+      }
+    },
+    {
+      "id": "gun_mp5",
+      "type": "gun",
+      "category": "smg",
+      "name": "MP5",
+      "path": "guns/smg/mp5.glb",
+      "version": 1,
+      "sha256": "acad822a4c55ea8fefda0002ed3d8f61a2e6cfc2d857d63408980e4d9807622d",
+      "size": 1658012,
+      "required": false,
+      "meta": {
+        "yaw_deg": -90,
+        "roll_deg": 0,
+        "length": 0.7,
+        "muzzle_y": 0.62
+      }
+    },
+    {
+      "id": "gun_ump45",
+      "type": "gun",
+      "category": "smg",
+      "name": "UMP-45",
+      "path": "guns/smg/ump-45.glb",
+      "version": 1,
+      "sha256": "006832cdfeae79779f79f3a53bff140cee328b49094262f176162a1ea28a5149",
+      "size": 1613528,
+      "required": false,
+      "meta": {
+        "yaw_deg": 90,
+        "roll_deg": 0,
+        "length": 0.72,
+        "muzzle_y": 0.7
+      }
+    },
+    {
+      "id": "gun_awp",
+      "type": "gun",
+      "category": "gun",
+      "name": "AWP",
+      "path": "guns/sniper/awp.glb",
+      "version": 1,
+      "sha256": "08233e575baba7da31a739c2bc1480e7b3052d79a58f68d0339cc24250578281",
+      "size": 1161240,
+      "required": false,
+      "meta": {
+        "yaw_deg": 0,
+        "roll_deg": 0,
+        "length": 1.25,
+        "muzzle_y": 0.5
+      }
+    },
+    {
+      "id": "gun_m82",
+      "type": "gun",
+      "category": "sniper",
+      "name": "M82 Barrett",
+      "path": "guns/sniper/m82-barrett.glb",
+      "version": 1,
+      "sha256": "6ec2a7343da321bdca43ec7c616d89f7df11fd58a3cda3223edc13c48ab4eeb2",
+      "size": 309116,
+      "required": false,
+      "meta": {
+        "yaw_deg": -90,
+        "roll_deg": 0,
+        "length": 1.3,
+        "muzzle_y": 0.55
+      }
+    },
+    {
+      "id": "gun_usps",
+      "type": "gun",
+      "category": "pistol",
+      "name": "USP-S",
+      "path": "guns/pistol/usp-s.glb",
+      "version": 1,
+      "sha256": "3e65759d2ee245bc30c7354f8d690b3b5c1007952b43761c752e9092a19d0b48",
+      "size": 813336,
+      "required": false,
+      "meta": {
+        "yaw_deg": -90,
+        "roll_deg": 0,
+        "length": 0.36,
+        "muzzle_y": 0.75
+      }
+    },
+    {
+      "id": "gun_deagle",
+      "type": "gun",
+      "category": "pistol",
+      "name": "Desert Eagle",
+      "path": "guns/pistol/desert-eagle.glb",
+      "version": 1,
+      "sha256": "b585a13ca6f9c4f90b3d30abb5b045e8ba2eb78a300d54faa27218e17c0c7187",
+      "size": 15083744,
+      "required": false,
+      "meta": {
+        "yaw_deg": 180,
+        "roll_deg": 0,
+        "length": 0.34,
+        "muzzle_y": 0.8
+      }
+    },
+    {
+      "id": "gun_fragknife",
+      "type": "gun",
+      "category": "melee",
+      "name": "Frag Knife",
+      "path": "guns/melee/frag-knife.glb",
+      "version": 1,
+      "sha256": "b4fa90829e94a070036ef3254061d094d2071680bee95ccb4b84d7f982e3d970",
+      "size": 920348,
+      "required": false,
+      "meta": {
+        "yaw_deg": -45,
+        "roll_deg": 90,
+        "length": 0.34,
+        "muzzle_y": 0.5
+      }
+    },
+    {
+      "id": "gun_utilityknife",
+      "type": "gun",
+      "category": "melee",
+      "name": "Utility Knife",
+      "path": "guns/melee/utility-knife.glb",
+      "version": 1,
+      "sha256": "336ab78e4fbc6aa1a7e940a0b03d5783b66812405f7966ef291d74b6921efc96",
+      "size": 471000,
+      "required": false,
+      "meta": {
+        "yaw_deg": -90,
+        "roll_deg": 0,
+        "length": 0.3,
+        "muzzle_y": 0.5
+      }
+    },
+    {
+      "id": "char_frost",
+      "type": "character",
+      "name": "Frost",
+      "path": "characters/frost.glb",
+      "version": 1,
+      "sha256": "e93cb162b93b7cf5b114d0a3d232130664f35e3b8d7a13a4c013f0a9515f5755",
+      "size": 1282876,
+      "required": true,
+      "meta": {
+        "yaw_deg": 180,
+        "height": 1.82,
+        "title": "The Ice-Cold Closer",
+        "personality": "Calm, composed and never rattled. Frost reads the fight and finishes it quietly.",
+        "perk": "Steady aim"
+      }
+    },
+    {
+      "id": "char_noir",
+      "type": "character",
+      "name": "Noir",
+      "path": "characters/noir.glb",
+      "version": 1,
+      "sha256": "b6fb3b95645e39e25e0c95894260e8c87595041829b5301e6067fd66c72dffbd",
+      "size": 3876660,
+      "required": false,
+      "meta": {
+        "yaw_deg": 180,
+        "height": 1.82,
+        "title": "Shadow in the Coat",
+        "personality": "A mysterious loner who speaks little and appears behind you.",
+        "perk": "Silent steps"
+      }
+    },
+    {
+      "id": "char_rivet",
+      "type": "character",
+      "name": "Rivet",
+      "path": "characters/rivet.glb",
+      "version": 1,
+      "sha256": "52017eca8872088ce8cb0e3e5139ebcaafe1b90480ad835b8ceac19d13bcee19",
+      "size": 1004680,
+      "required": false,
+      "meta": {
+        "yaw_deg": 180,
+        "height": 1.8,
+        "title": "Blue-Collar Bruiser",
+        "personality": "Stubborn, hard-working and tough as steel. Rivet takes a hit and keeps building.",
+        "perk": "Heavy hitter"
+      }
+    },
+    {
+      "id": "char_ace",
+      "type": "character",
+      "name": "Ace",
+      "path": "characters/ace.glb",
+      "version": 1,
+      "sha256": "72fc3e1b591d5d92ef57db9db131187aacbfc1676704330e4702f13b2616988c",
+      "size": 1051548,
+      "required": false,
+      "meta": {
+        "yaw_deg": 180,
+        "height": 1.82,
+        "title": "The Natural Leader",
+        "personality": "Confident, upbeat and always first through the door.",
+        "perk": "Team spirit"
+      }
+    },
+    {
+      "id": "char_billa",
+      "type": "character",
+      "name": "Billa",
+      "path": "characters/billa.glb",
+      "version": 1,
+      "sha256": "685a050225608930edfa50e5683ae371d86e1ff6fa3b63da06b0c881e1071a95",
+      "size": 2866152,
+      "required": false,
+      "meta": {
+        "yaw_deg": 180,
+        "height": 1.8,
+        "title": "The Boss",
+        "personality": "Smooth, stylish and a little dangerous. Billa runs the room.",
+        "perk": "Style points"
+      }
+    },
+    {
+      "id": "map_lobby",
+      "type": "map",
+      "name": "Dome Lobby",
+      "path": "maps/lobby.glb",
+      "version": 1,
+      "sha256": "102ce2389533bfceef97ed307a653231ad28b871d8d091b3f85d1d9eb3b36ea6",
+      "size": 2902460,
+      "required": true,
+      "meta": {
+        "scale": 0.8,
+        "usable_radius": 15.5
+      }
+    },
+    {
+      "id": "tex_camo_woodland",
+      "type": "texture",
+      "name": "Woodland Camo",
+      "path": "textures/camo_woodland.png",
+      "version": 1,
+      "sha256": "d98beace9bdf7f0b130a764a27ddd3c2a9dc093512728468514b9f50507c9b67",
+      "size": 6389,
+      "required": false,
+      "meta": {}
+    },
+    {
+      "id": "tex_camo_tiger",
+      "type": "texture",
+      "name": "Tiger Camo",
+      "path": "textures/camo_tiger.png",
+      "version": 1,
+      "sha256": "c672361de06023b1a5188f242e424a6330d834f5b4ea15ac8c93ad2130c0c380",
+      "size": 3321,
+      "required": false,
+      "meta": {}
+    }
+  ]
 }
